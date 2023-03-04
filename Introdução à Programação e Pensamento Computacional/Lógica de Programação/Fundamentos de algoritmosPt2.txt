@@ -1,0 +1,32 @@
+Estrutura de repetição e Vetores e Matrizes
+
+
+Trecho de um programa que se repete
+laços
+controle de fluxo
+malhas de repetição
+repetição
+loop
+
+existe uma condição de parada para o loop não seja infinito
+a condição pode ser
+condição a ser satisfeita
+exemplo: 
+for i in range(10):
+(enquanto i for menor que 10 ele continua) 
+
+número de repetições pré-fixada
+condição pré-fixada em que o algoritmo pede para escrever a palavra olá, mundo 3 vezes.
+
+Estrutura de repetição
+Enquanto...Faça
+Repita...Até
+Para...de..até...faça (for)
+
+Vetores e Matrizes
+Vetor:
+um vetor é caracterizado por uma variável dimensionada com tamanho pré-fixado que recebe n valores
+
+Matrix: 
+tabela organizada em linhas e colunas no formato de m x n onde m é o número de linhas (horizontal)
+e n é o número de colunas (vertical)

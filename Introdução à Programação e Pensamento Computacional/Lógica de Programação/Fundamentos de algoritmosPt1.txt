@@ -1,0 +1,47 @@
+Fundamentos de algoritmos
+
+Vi tipos de dados, variáveis, instruções, condições
+
+Função do computador:
+Variáveis:
+INFORMAÇÃO
+DADOS - INSTRUÇÕES
+
+Dados tratados
+Numéricos 
+Caracteres 
+Lógicos
+
+Numéricos:
+Inteiros e Reais
+
+Caracteres:
+"AAAA" "Telefone" # $ ! @ C
+
+Lógico
+Booleano
+Verdadeiro - 1
+Falso - 0 
+
+True or False
+
+Variável é mutável, possui variações
+inconstante, incerto e instável.
+
+ex: 
+a - b = d
+a + b = c  
+
+Nome da variável segue as regras:
+Atribuição de um ou mais caracteres
+primeira letra - não número
+sem espaços 
+vedado (utilização de palavras reservadas não pode)
+caracteres e números
+
+Constante:
+Inalterável, não muda, invariável
+Ex: PI, phi
+resulta = recebido * 0.10
+em que 0.10 não muda a não ser que eu mude, a idéia é ela se manter inalterável.
+

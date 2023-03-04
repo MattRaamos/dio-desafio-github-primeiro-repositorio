@@ -1,0 +1,22 @@
+O que são funções
+
+funções ou sub-rotinas são blocos de instruções que realizam tarefas específicas
+Função tem como benefícios:
+Modularização do programa
+Código mais claro e conciso
+Reutilização de instriuções
+
+ex:
+
+funcao mediaescolar(nota1, nota2)
+resultado = 0
+resultado = (nota1 + nota2)/2
+
+retorna resultado
+
+fim funcao
+
+-------------------------------
+aluno1 = mediaescolar(nota11, nota21)
+aluno2 = mediaescolar(nota12, nota22)
+aluno3 = mediaescolar(nota13, nota23)

@@ -1,0 +1,27 @@
+Paradigmas de programação
+
+Orientação à objeto
+
+Os pilares de POO
+
+Herança
+Encapsulamento
+Polimorfismo
+
+-- Abstração
+
+Classe mãe
+Classe filho - Classe filha
+
+POO - Reuso de código 
+
+Paradigmas estruturados
+Sequência
+Decisão
+Iteração - laços, funções, condições
+
+C = Baixo nível, problemas simples e diretos, bom para aprender programação mesmo que C seja mais díficil.
+
+
+PE - Problemas específicos e diretos
+Usado em análise de dados, uma linguagem interpretada: mais lenta

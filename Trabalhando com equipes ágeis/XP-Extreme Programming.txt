@@ -1,0 +1,15 @@
+XP - Extreme Programming
+
+método ágil criado no final da década de 90 
+interação próxima com cliente, testagem constante e ciclos de desenvolvimentos curtos
+
+Planeja - Faz - Testa/Mensura - Melhora/Incremente = CICLO.
+
+O XP TEM:
+Ciclos
+Cerimônias (reuniões)
+Testes
+Programação em pares
+Feedback
+Aproximação com o cliente
+Flexibilidade

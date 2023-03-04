@@ -1,0 +1,18 @@
+Kanban
+
+Método de definir, gerenciar e melhorar 
+É muito utilizado pela simplicidade e benefícios 
+
+Desenvolvido pela toyota em 40 
+para resolver: PROBLEMA DE GESTÃO DE ESTOQUE
+
+Estoque alto = Menos produto circulando no mercado
+Estoque baixo = A empresa não consegue suprir a demanda do mercado
+
+O Kanban busca o equilibrio entre isso. 
+
+Funciona como gestão de tarefas 
+
+O quadro do Kanban
+
+To Do | Doing | Done 

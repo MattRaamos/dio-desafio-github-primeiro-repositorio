@@ -1,0 +1,44 @@
+# Técnicas de lógica de programação:
+
+## Técnica linear:
+
+Modelo tradicional
+Não tem vínculo
+ - Estrutura hierárquica
+ - Programação de computadores
+Associada a matemática
+Execução sequenciada
+Recursos limitados
+Única dimensão
+EX:
+[VETOR DA BUSCA BINÁRIA] - Única dimensão, recursos limitados. LINEAR
+
+Técnica Estruturada
+Organização, disposição e ordem dos elementos essenciais que compõem um corpo (concreto ou abstrato)
+
+Escrita
+Entendimento
+Validação
+Manutenção
+
+A técnica estruturada adiciona uma condição a sequência
+Ex: Café da manhã
+Na linear: acordados e vamos para a cozinha. Preparamos o café e tomamos.
+Na estruturada: acordamos, vamos para a cozinha e decidimos o que prepara, café ou suco, tomamos o café
+e lemos o jornal ou assistimos a TV.
+
+Ténica Modular
+Controlado por um conjunto de regras
+Partes independentes
+
+Dados de entrada - processo de transformação - Dados de saída
+- Simplificação
+- Decompor o problema
+- Verificação do módulo
+decompomos o problema em problemas menores como vi em decomposição
+Ao invés de ver o código todo procurando um erro, dividimos em módulos:
+módulo 1
+módulo 2
+módulo 3
+módulo 4 
+e olhamos por módulo agilizando o processo e mantendo mais organizado concentrando as alterações.

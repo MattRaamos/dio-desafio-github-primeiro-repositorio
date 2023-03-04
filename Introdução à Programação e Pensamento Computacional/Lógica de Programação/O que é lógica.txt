@@ -1,0 +1,16 @@
+Lógica de programação
+anda de mãos dadas ao pensamento computacional
+
+Lógica vem para resolver uma questão
+forma de pensamento estruturada que auxilia a determinar o que é verdadeiro ou não
+forma de raciocínio para ordenação que segue convenções
+
+Lógica:
+organização e planejamento das instruções, assertivas em um algoritmo, a fim de vialibizar a 
+implementação de um programa.
+
+No cotidiano 
+sequência de instruções
+ex: tomar café
+instruções até o café ser feito e tomá-lo. 
+ 

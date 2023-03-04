@@ -1,0 +1,64 @@
+# Iniciando o GIT
+
+# Iniciar o versionamento
+
+# Criar um commit
+
+_________________________
+
+# comando no terminal git bash
+
+ls - listar
+
+cd 'nome da pasta/' - para entrar na pasta
+
+cd .. - para retroceder um nível
+
+mkdir 'nome da pasta' - para criar uma pasta nova
+
+git init - iniciar o git dentro da pasta (repositório) e começa a versionar o código 
+
+'pasta oculta .git é pasta oculta, pasta gerencial do git - onde versiona os objetos manipulados'
+
+para ver essa pasta usar a flag:
+
+ls -a - para mostrar repositórios ocultos 
+
+primeiras configurações: 
+git config --global user.email "meuemail@meuemail.com" | 'global' para setar de forma global a configuração
+git config --global user.name meunome
+
+usar o arquivo MD = Markdown 
+
+git add * - pega os arquivos que foram modificados e os coloca prontos para commitar
+
+git add . ou git add -a ### para adicionar toda a pasta nova no versionamento local
+
+git commit -m "acrescentar comentário sobre a adição" ### Commitando e adicionando comentário sobre a nova versão.
+
+git status - mostrar informações da branch | monitorar os status dos arquivos
+
+mv 'nome do arquivo./outra pasta' - para mover o arquivo para outra pasta
+
+git add - para adicionar o arquivo para commitar
+
+git restore - para tirar o arquivo pronto para commitar
+
+echo > README.md - criar o arquivo: README 
+
+git config --list - lista de todas as configurações que estão no git
+
+git config --gloal --unset user.email - para retirar a configuração do email por exemplo
+
+git remote add origin 'url do git' - para empurrar a versão do repositório local para o remoto e isso adiciona a origem do local.
+
+git remote -v - para listar as listas de repositórios cadastrados/baixados
+
+o origin é um apelido para não ter que digitar sempre o endereço de url toda vez 
+
+git push origin master ### para enviar (empurrar) todos os commits locais para a nuvem. 
+master é a branch
+
+git pull origin master - ## # para puxar o repositório que está na nuvem 
+
+git clone 'url que pegou no git' - para clonar o repositório na máquina local

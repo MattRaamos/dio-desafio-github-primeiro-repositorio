@@ -1,0 +1,29 @@
+Gerenciamento de projetos
+
+Diferença 
+Processo x Projeto 
+
+Processo:
+recorrente e contínuo
+replicável
+Geralmente é repetitivo e realizado regularmente
+
+Projeto:
+Esforço temporário para atingir um objetivo
+O resultado é exclusivo
+Tem início e fim bem definidos
+
+Um processo é recorrente e já se conhece o resultado final pq é sempre o mesmo (processo)
+Ex: receita de bolo
+
+O projeto 
+Esforço temporário com esforço único e definido: ex de janeiro a julho esse é o temp odo projeto
+
+Processo: 
+Solicitação de compras a empresa
+O processo é sempre o mesmo
+Entrar em contato com o resposável de compras, faz o orçamento e o gestor/diretor aprova a compra e ele realiza o pedido.
+
+Projeto:
+Desenvolver um novo modelo de fone de ouvido
+e passa pelas fases do projeto até a entrega do produto novo 

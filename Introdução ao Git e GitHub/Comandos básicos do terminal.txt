@@ -1,0 +1,30 @@
+Comandos básicos do terminal:
+
+Mudar de pastas
+Listar as pastas
+Criar pastas/arquivos
+Deletar pastas/arquivos
+
+no Windows 
+- cd
+- dir
+- mkdir
+- del / rmdir
+
+*dir* para listar os diretórios na pasta em que estamos
+
+*cd* para navegar entre as pastas 
+
+*cls* limpa a tela
+
+*TAB* atalho para auto-completar
+
+*mkdir* para criar pasta
+
+*echo* echo hello retora apenas a frase:
+echo hello > hello.txt para redirecionar o fluxo. Pega o output de echo e joga em uma pasta, antes 
+verifica se não tem nenhuma com o mesmo nome criada. 
+
+*del* para deletar o que tem dentro da pasta
+
+*rmdir* deleta o repositório/pasta

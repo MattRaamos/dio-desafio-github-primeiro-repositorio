@@ -1,0 +1,13 @@
+Framework Scrum
+
+É um framework leve que ajuda pessoas e times a gerar valor por meio de soluções adaptativas para problemas complexos.
+
+As bases do scrum
+Empirismo e Lean Thinking
+
+Empirismo - ciclo de aprendizado, observações
+Lean thinking - Linha de pensamento, cultura da toyota. Preza pela melhoria contínua e evita desperdício.
+
+Pilares do SCRUM
+
+TIA = Transparência - Inspeção - Adaptação

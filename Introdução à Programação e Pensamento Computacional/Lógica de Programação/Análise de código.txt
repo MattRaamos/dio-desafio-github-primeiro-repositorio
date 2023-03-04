@@ -1,0 +1,29 @@
+Análises de código
+
+Análise léxica
+particiona - classifica - elimina
+Primeira fase do processo de compilação e a função é fazer a leitura do código fonte 
+caractere por caractere, letra por letra e agrupar os caracteres em lexiemas.
+Produzir uma sequência de símbolos léxicos (tokens)
+ela classifica e elimina o que não é necessário (comentários, espaços em branco)
+
+Análise sintática
+FORMA
+É a forma que ele define através de palavras reservadas, indexação, símbolos. 
+Define a corretude do programa
+Cada linguagem tem uma sintatica associada. 
+
+Análise semantica
+Estudo do significado
+palavras, frases, sinais e símbolos.
+
+Erro de semântica: não faz o esperado
+ex:
+if (x = 0)
+	printf("o valor é nulo"\n)
+
+na verdade o = esta atribuindo e não verificando se são iguais. 
+A maneira correta:
+
+if (x == 0)
+	printf("o valor é nulo"\n)
