@@ -1,5 +1,6 @@
-Comandos básicos do terminal:
+Comandos básicos do terminal
 
+O que eu aprendi: 
 Mudar de pastas
 Listar as pastas
 Criar pastas/arquivos
