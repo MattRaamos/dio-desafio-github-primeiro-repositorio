@@ -1,0 +1,64 @@
+Java criada na década de 90 e adquirida pela Oracle em 2008. Ainda é uma das mais utilizadas no mercado
+
+É uma linguagem interpretada 
+
+Escreve o programa na IDE, salvo como '.java' 
+o Compilador pega o programa e transforma o arquivo em '.class'
+Assim a JVM pega o '.class' e interpreta ele para linguagem de máquinas, assim o SO consegue ler.
+
+Diferente das outras linguagens, java é compilada para um bytecode que é interpretado pela JVM (máquina virtual)
+
+Plataforma x Linguagem
+A linguaguem de programação java é a linguagem convencional da plataforma java, mas não é a única linguagem
+Existem outras como:
+
+JRuby
+Jython 
+Groovy - segunda linguagem criada
+
+A grande vantagem do java é ser executado e uma máquina virtual e pode ser emulada em outros sistemas operacionais ou hardwares como
+TVs, relógios, celulares e etc.
+
+Java SE (Java platform, Standard Edition) - A base da plataforma. Contém algumas classes comuns.
+Java EE (Java plataform, Enterprise Edition) - A parte da plataforma que cuida do desenvolvimento web.
+Java ME (Java plataform, Micro Edition) - Parte que cuida da parte de desenvolvimento de dispositivos móveis e dispositivos embarcados.
+dispositivos embarcados = sistema que roda com uma função ex: calculadora, modem, urna eletrônica, controle remoto e etc.
+ 
+Fases da execução java:
+1. Escrevemos o código-fonte (.java)
+2. Utilizando o JDK para copilar o código-fonte, geramos o bytecode (.class)
+3. A JVM lê o arquivo compilado (.class) e as bibliotecas padrões do java que estão na JRE
+
+JDK - Kit de desenvolvido, usado apenas por programadores
+JRE - Para rodar os arquivos que foram desenvolvidos, a JRE possui a JVM e as classes padrões
+JVM - Máquina virtual que executa.
+
+JDK x JRE
+
+JDK = Kit de desenvolvimento responsável por compilar o código-fonte (.java) em bytecode (.class)
+JVM = Máquina virtual que executa o bytecode
+JRE = Ambiente de execução do java que fornece as bibliotecas padrões do Java para o JDK compilar o código-fonte e para a JVM executar o seu programa.
+
+Versões do Java
+Versão paga = usada pela oracle
+Versão gratuita = OpenJDK que é totalmente open source com uma GNU - general public license que baixamos na nossa máquina e usamos.
+A JDK Oracle requer a licença comercial sob o contrato de licença do código binário oracle.
+
+Em performance: não há muitas diferenças no uso pessoal e de pequeno porte 
+Os lançamentos das versões do OpenJDK LTS (suporte ao longo prazo) acontecem a pelo menos cada quatro anos
+
+IDE
+Ambiente de desenvolvimento integrado. Software que combina ferramentas comuns de dev em uma única interface gráfica do usuário (GUI)
+facilitando o desenvolvimento de aplicações
+
+-pense na IDE como um 'editor de texto'- 
+
+Eclipse: IDE para desenvolvimento em java que suporta várias outras linguagens. Foi feito em java e segue o modelo open source 
+
+IntelliJ - ambiente de desenvolvimento intregado escrito em java para o desenvolvimento de software de computador. 
+versão grátis e versão ultimate (paga) 
+
+-não se apagar a nenhuma IDE- 
+Conhecimento até agora: netbeans e VSCode.
+Conhecerei agora: IntelliJ e Eclipse
+

@@ -1,0 +1,49 @@
+Eclipe - Atalho
+
+Alterando nome do pacote: F2
+Criando outra classe/pacote: Ctrl + N
+//cada '.' que colocamos no nome do package separa uma página 
+Para expandir para esconder o project e voltar: Ctrl + M
+Para aumentar/diminuir a fonte: Ctrl + ou -
+
+Ctrl + Space para mostrar as opções
+Space para completar a frase
+
+Criando construtor ou getters and setter e outros: Ctrl + 3 < abre a tela para auxiliar na criação 
+ 
+Para comentar as linhas selecionadas: Ctrl + Alt + C
+
+Para mudar o bloco selecionado de lugar: Alt + seta para cima ou para baixo
+
+Para ajustar o código/indentação: Ctrl + Shift + F
+
+Para importar automaticamente: Ctrl + Shit + O
+
+Para escrever o print automaticamente: sysout + ctrl + space
+
+Para criar o método main automaticamente: main + ctrl + space
+
+Para excluir linha: Ctrl + D
+
+Para copiar uma ou várias linhas: ctrl + alt + seta para baixo ou cima
+
+Para criar uma variável: ctrl + 1 e ctrl + 2 + L
+
+Para localizar uma classe: Ctrl + Shit + T
+
+Para fechar a janela: Ctrl + W
+
+Para fechar todas as janelas: Ctrl + Shit + W
+
+
+ATALHO DEBUG:
+Colocar o breakpoint na linha onde acha que está o erro: Um clique na linha
+Resume: F8
+Parar o debug: ctrl + f2
+step into para entrar no método de funções que esta o breakpoint: f5
+step over para pular a execução linha por linha: f6
+return para voltar as ações: f7
+
+
+
+ 

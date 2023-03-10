@@ -1,0 +1,56 @@
+Intellij - Atalhos
+
+Para criar um novo pacote ou classe: alt + insert
+
+Alt + insert também serve para criar o método construtor e os getters and setters e outros.
+
+Para criar o método main automaticamente: main ou psvm
+
+Para criar o system.out.print automaticamente: sout
+
+Para configurar o projeto para rodar: ctrl + shift + f10 
+
+Para rodar o projeto: shitf + f10 (após a configuração do mesmo)
+
+Para comentar e retirar comentario do bloco: ctrl + shift + / 
+
+Para comentar e retirar comentario da linha: ctrl + /
+
+Para importar: alt + enter 
+
+Para retirar o import que não está sendo usado: ctrl + alt + O
+
+Para apagar a linha: ctrl + x ou ctrl + y
+
+Para renomear classe/atributo: shift + f6
+
+Para deixar apenas o editor de texto sem o project na lateral: shitf + f12
+
+Para organizar e indentar: ctrl + alt + L
+
+Para duplicar a linha: ctrl + D
+
+Para commitar: ctrl + k
+
+Para dar o push: ctrl + shift + k
+
+Para criar uma variável de retorno: ctrl + alt + V
+
+ATALHO DEBUG:
+
+Colocar o breakpoint na linha onde acha que está o erro: Um clique na linha
+
+Resume: F9
+
+Parar o debug: ctrl + f2
+
+step into para entrar no método de funções que esta o breakpoint: f7
+para forçar: alt + shift + f7
+
+step over para pular a execução linha por linha: f8
+return para voltar as ações: shift + f8
+
+
+Bibliotecas:
+
+Key Promoter X - Para mostrar atalhos
