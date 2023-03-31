@@ -1,0 +1,5 @@
+Estrutura de repetição
+
+Uma estrutura de repetição permite que uma sequência de comandos seja executada repetidamente, caso determinadas condições 
+sejam satisfeitas.
+

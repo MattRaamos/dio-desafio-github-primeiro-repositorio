@@ -1,0 +1,18 @@
+Estrutura de repetição e Arrays em Java
+
+Comandos while / do-while / for / break e continue / arrays / for-each
+
+s operadores de incremento e decremento são usados para aumentar ou diminuir o valor de uma variável por uma unidade.
+
+O operador ++ (chamado de operador de incremento) adiciona uma unidade ao valor atual da variável, enquanto o operador -- (chamado de operador de decremento) subtrai uma unidade do valor atual da variável.
+
+Ao usar o operador de incremento na variável "numero" com o valor atual de 5, como em ++numero, a variável "numero" será atualizada para 6 e esse valor será mantido na variável para uso posterior em outras operações ou cálculos.
+
+Já no caso do operador de incremento pós-fixado como em numero++, o valor atual da variável será utilizado na operação e somente após isso a variável será atualizada para o novo valor. Ou seja, na operação seguinte, a variável "numero" terá o valor de 6, mas na operação atual, o valor utilizado ainda será o valor anterior (5).
+
+Vale lembrar que o comportamento exato dos operadores de incremento e decremento pode variar de acordo com a linguagem de programação utilizada. Porém, na maioria das linguagens, o comportamento é como descrito acima.
+
+--------------------
+
+# Arrays
+

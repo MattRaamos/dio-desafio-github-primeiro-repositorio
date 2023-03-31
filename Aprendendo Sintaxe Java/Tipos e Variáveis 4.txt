@@ -1,0 +1,23 @@
+Tipos e Variáveis 4
+
+# Constantes
+
+Variáveis e Constantes
+Uma variável é uma área de memória, associada a um nome, que pode armazenas valores de um determinado tipo e que podem ao decorrer 
+da aplicação sofrer alterações de valores. 
+Já as constantes são valores armazenados em memória que não podem ser modificados depois de declarados. Em java
+esses valores são representados pela palavra reservada FINAL, seguida do tipo.
+
+Por convenção, constantes são sempre escritas em CAIXA ALTA.
+ex:
+
+int numero = 5;
+numero = 10;
+
+essa é uma variável que mostra a alteração. Iniciou-se com 5 e posteriormente alteramos para 10. 
+Já em constantes:
+
+final double VALOR_DE_PI = 3.14;
+
+essa linha representa que esse valor não pode ser alterado. Ele é constante. 
+

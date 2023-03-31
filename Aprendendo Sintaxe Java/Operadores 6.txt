@@ -1,0 +1,22 @@
+Operadores 6
+
+Operadores relacionais 
+Eles avaliam a relação entra as duas variáveis ou expressões. Neste caso, mais precisamente, definem se o operando à esquerda é igual 
+diferente, menor ou menor igual, maior ou maior ou igual ao da direita, retornando um valor booleano como resultado.
+
+== Quando desejamos verificar se uma variável é IGUAL e outra
+!= Quando desejamos verificar se uma variável é DIFERENTE da outra
+> Quando desejamos verificar se uma variável é MAIOR QUE a outra
+>= Quando desejamos verificar se uma variável é MAIOR OU IGUAL a outra
+< Quando desejamos verificar se uma variável é MENOR QUE a outra
+<= Quando desejamos verificar se uma variável é MENOR OU IGUAL a outra
+
+Para compararmos conteúdo de dois objetos precisamos utilizar outro comando que é o equals
+exemplo:
+
+String nomeUm = "Matheus";
+String nomeDois = new String("Matheus");
+
+System.out.println(nomeUm.equals(nomeDois));
+resultado: true
+

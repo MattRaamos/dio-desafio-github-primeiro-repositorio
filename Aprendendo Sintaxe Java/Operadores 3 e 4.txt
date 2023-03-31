@@ -1,0 +1,15 @@
+Operadores 3 e 4
+
+Operador unário
+São operadores que são aplicados juntamento com um outro operador aritmético. Ele realizam alguns trabalhos básicos como incrementar,
+decrementar, inverter valores númericos e booleanos.
+
+(+) operador unário de valor positivo
+(-) operador unário de valor negativo
+(++) operador unário de incremento de valor
+(--) operador unário de decremento de valor
+(!) operador unário lógico de negação (booleana)
+
+
+
+ 

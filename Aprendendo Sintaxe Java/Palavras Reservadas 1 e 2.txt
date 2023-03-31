@@ -1,0 +1,50 @@
+Palavras reservadas 1 e 2 
+
+Apresentar as 52 palavras reservadas
+
+todas as palavras reservadas são todas em minúsculas
+Palavras reservadas em java:
+abstract, assert, boolean, break, byte, case, catch, char, class, const, continue
+default, do, double, else, extends, final, finally, float, for
+goto, if, implements, import, instanceof, int, interface, long
+native, new, package, private, protected, public, return, short
+static, strictfp, super, switch, synchronized, this, throw, throws
+transient, try, void, volatile, while
+
+# Palavras reservadas por finalidade
+## Controles de pacotes
+Import, package
+
+## Modificadores de acesso
+public, private, protected
+
+## Primitivos
+boolean, byte, char, double, float, int, long, short, void
+
+## Modificadores de classes, variáveis ou métodos
+abstract, class, extends, final, implements, interface, native, new, static, strictfp
+synchronized, transient, volatile
+
+## Controle de fluxo dentro de um bloco de código
+
+break, case, continue
+
+## Tratamento de erros
+assert, catch, finally, throw, throws, try
+
+## Variáveis de referência
+super, this
+
+## Palavras "opostas" / substituição
+### package / import
+	package define o pacote da classe atual e import são classes dependentes que não estão no mesmo pacote
+### extends / implements
+	Finalidade para usar a herença, extends uma classe ou extends interface ou uma classe implementa outra interface
+
+### final / abstract
+	final é a última lógica ou valor da aplicação/variável e abstract para métodos para quando precisamos que o método seja mais específico atraves da herança
+
+### throws / throw
+	throws dispara uma exceção ou determina um método que pode gerar uma exceção e throw é uma geração de uma exceção, ele dispara uma exceção
+
+

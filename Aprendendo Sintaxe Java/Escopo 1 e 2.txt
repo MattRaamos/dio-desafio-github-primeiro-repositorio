@@ -1,0 +1,5 @@
+Escopo 1 e 2
+
+Pode ser entendido como o ambiente onde uma variável pode ser acessada. 
+Em java, o escopo de variáveis vai de acordo com o bloco onde ela foi declarada.
+

@@ -1,0 +1,57 @@
+Como trabalhamos e entregamos performance
+
+Product Owner 
+Scrum Master
+Tech Lead
+Time de Eng. Software
+
+Product Owner - PO é o gestor do produto, conhece o negócio e é o responsável por definir o que deve ser feito e com qual ordem de prioridade
+
+Scrum Master - O SM é responsável por blindar o time para atuar apenas no combinado, conduzir as práticas ágeis, e também apoiar o time nas comunicações
+
+Tech Lead - O TL é responsável por apoiar tecnicamente o time nas etapas de Upstream e Downstream, assim como destravar impedimentos técnicos
+
+Quality Analyst - QA é responsável por realizar testes de componente ou E2E com foco em validações funcionais e também apoiar e conduzir o time em testes e qualidade
+
+Software Engineer - O Engenheiro é responsável por identificar como tornar real a solicitação do PO, refinar a solução, desenvolver testes unitários, implementar e corrigir bugs
+
+User Experience Design - O UX é responsável por planejar e prototipar a melhor experiência para o cliente nas telas do sistema, com foco na usabilidade, utilidade e acessibilidade
+
+# Features e Bugs
+Classificação de tarefas com diferentes propósitos e impactos ao cliente
+
+Feature: funcionalidade disponível ao cliente. São recursos do Software
+
+Bugs: Erros que geram falhas ao cliente. São os problemas do Software
+
+Como trabalhamos: Features e Bugs - Bug-Feature??
+
+Upstream - Product Discovery - Refinamento: Narrativa de negócio - Priorização - Refinamento: Narrativa técnica
+
+Status Code REST?
+(200 OK)
+
+# Performance
+## Teste de Carga
+Fazendo estudo para realizar o teste
+Ex: sistema do enem quando sai a nota todos vão de uma vez só ver a nota. O sistema sabe quantos inscritos tem pra prova
+baseado nesse número ele faz um teste de carga 
+
+## Teste de Estresse
+Joga um nível elevado de requisições. Simula até derrubar o sistema.
+Estressa colocando muitas requisições simultâneas
+
+## Teste de duração
+
+## Teste de Pico 
+
+
+## Teste de volume
+Armazenamento de dados - Ex: Usado em migração de plataformas ou processamento em lot *(que ocorre normalmente de madrugada, mas tem um grande número de dados)
+
+## Teste de escalabilidade
+Teste para ver o aumento de usos no site, se estão usando os recursos de forma correta, as instâncias e réplicas de forma correta, se esta sendo usado desnecessariamente 
+
+Ferramentas:
+JMeter
+K6

@@ -1,0 +1,42 @@
+Anatomia de classes 6
+
+Java Beans
+
+Iniciativa conceitual da comunidade para termos uma estruturação de escrita de como expressamos as variáveis, métodos, classes e etc.
+
+# Variáveis
+Uma variável deve ser clara, sem abreviações ou definição sem sentido;
+Deve ser singular, exceto quando se referir a um array ou coleção;
+Defina um idioma único para as variáveis;
+
+_Não recomendado_:
+double salMedio = 1500.23 //variavel abreviada = salário médio
+String emails = "aluno@escola.com" // confuso pq a variável se refere no plural, mas o valor é singular. O recomendado seria "email" apenas
+String myName = "JOSEPH" // se idioma pt-BR, o valor deve ser escrito sempre em pt-BR para evitar confusões e manter apenas um idioma 
+
+_Recomendado_
+
+double salarioMedio = 1500.23;
+String email = "aluno@escola.com";
+String [] emails = {"aluno@escola.com", "professor@escola.com"}
+String meuNome = "JOSEPH";
+	[] Representa um array
+
+# Métodos
+deverão ser nomeados como verbos, através de uma mistura de letras minúsculas e maiúsculas. 
+A principio seria o ideal manter todas as letras minúsculas a menos que seja uma palavra composta, sendo assim 
+manter a primeira letra minúscula e a primeira letra da segunda palavra maiúscula.
+
+exemplos para nomenclatura de métodos
+somar(int n1, int n2) {
+}
+abrirConexao() {
+}
+concluirProcessamento() {
+}
+findById(int id) {
+}
+calcularImprimir() {
+	//nesse método encontra-se um erro (na nomenclatura) pois o mesmo deveria ter apenas uma funcionalidade.
+	//ele "calcula" e "imprime" 
+}

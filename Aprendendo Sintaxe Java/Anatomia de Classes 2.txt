@@ -1,0 +1,57 @@
+# Anatomia de Classes - 2
+
+Todo arquivo deve começar com a primeira letra maiúscula, e se for uma palavra composta, a segunda palavra também deve começar com a mesma regra.
+
+Toda classe deve conter o mesmo nome do arquivo
+
+Variável: toda variável deve ser escrita com letra minúscula, mas se a palavra for composta, a primeira letra da segunda palavra deve ser maiúscula.
+Ex: ano - anoFabricacao, nome - primeiroNome, compras - setorCompras.
+Se tiver três palavras, a ordem é a mesma: primeira minúscula e as seguintes maísculas. Ex:
+setorComprasVendas, escolaGradeHorarios
+Essa prática se chama camelCase. 
+
+Existe uma regra adicional para tornar uma variável imutável. 
+Por exemplo: BR = "Brasil"; 
+Esta atribuição não podera ser alterada e para isso é usado a palavra = final
+para determinar que essa variável não pode sofrer alterações. Ex:
+
+final String BR = "Brasil";
+
+Se a variável esta toda em maiúscula é pressuposto que ela é 'final' e não pode mais sofrer alterações.
+
+Outros exemplos de variáveis que não podem ser alteradas:
+
+double PI = 3.14
+int ESTADOS_BRASILEIROS = 27
+int ANO_2000 = 2000
+
+todas as variáveis estão todas em maiúsculas, então já percebemos que não podem ser alteradas.
+Dessa forma é determinado que essas 'variáveis' são CONSTANTES
+conversão UPPERCASE. 
+
+## Regras para declarar as variáveis:
+
+Deve contar apenas letras, _ (underline), $ ou os números de 0 a 9
+Deve obrigatóriamente se iniciar por uma letra (preferencialmente), _ ou $, jamais com número
+Deve iniciar com uma letra minúscula (boas práticas)
+Não pode conter espaços
+Não podemos usar palavras-chave (reservadas) da linguagem
+O nome de ser único dentro de um escopo.
+
+// Declaração inválida de variáveis:
+
+int numero&um = 1; //Os únicos símbolos permitidos são _ e $
+int 1numero = 1; //Uma variável não pode começar com um número
+int numero um = 1; //Nõa pode conter espaços
+int long = 1; //long faz parte das palavras reservadas da linguagem
+
+//Declaração válida de variáveis
+
+int numero$um = 1;
+int numero1 = 1;
+int numeroum = 1;
+int longo = 1;
+
+
+
+ 

@@ -1,0 +1,21 @@
+Anatomai de classes 5 
+
+Organizando arquivos
+
+Aplicar uma convenção para organizar os pacotes.
+Ex:
+Empresa chama TeknoBao
+
+com.teknobao.garrafaeletro
+comercial - NomeEmpresa - NomeProjeto
+o 'com' trata-se de uma abreviação de comercial, uma vez o que o projeto é para o público.
+Se fosse interno por exemplo poderia usar o 'org' de organização. 
+
+outros exemplos uma vez que esse modelo agora pode ser separado para outros nichos do projeto
+(subfuncionalidades)
+
+com.teknobao.garrafaeletro.model
+com.teknobao.garrafaeletro.util
+com.teknobao.garrafaeletro.service
+com.teknobao.garrafaeletro.app
+

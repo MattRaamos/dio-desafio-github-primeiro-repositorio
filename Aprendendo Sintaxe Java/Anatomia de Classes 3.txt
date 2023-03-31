@@ -1,0 +1,49 @@
+Anatomia de classes 3
+
+Estrutura básica de uma variável
+
+Tipo - nomeBemDefinido = Atribuição (opcional em alguns casos)
+
+ex:
+int idade = 26;
+double altura = 1.75;
+Dog spike; //aqui a variável spike não tem valor - dog é uma classe no caso
+
+## Declarando métodos 
+
+Estrutura simples:
+
+// Estrutura
+
+TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+Pode ter parâmetro ou não
+
+// Exemplo
+
+int somar (int numeroUm, int numero2)
+
+String formatarCep(long cep) - o tipo é diferente do parâmetro. Recebe o tipo numérico, mas retorna string
+
+Power class - são classes poderosas da linguagem
+
+O java pode concatenar de dois métodos, com o .concat ou com o "+".
+ 
+declarando uma variável para pegar nome completo exe:
+
+public static void main (String [] args){
+	
+	String primeiroNome = "Matheus";
+	String segundoNome = "Ramos";
+	
+	String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+
+	System.out.print(nomeCompleto);
+}
+
+public static String nomeCompleto (String primeiroNome, String segundoNome) {
+	return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
+}
+
+nesse exemplo acima eu usei duas maneiras para concatenar que foi o símbolo + e o método .concat.
+Declarei as variáveis com o nome que eu queria, criei uma variável chamando o método e no método declarei o tipo de dado que foi introduzido
+e no return usei as duas maneiras para concatenar. 

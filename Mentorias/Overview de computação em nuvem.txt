@@ -1,0 +1,15 @@
+# Overview de computação em nuvem
+
+## Principais conceitos de nuvem 
+Mobilidade e multiplataforma
+Segurança
+Escalabilidade e Disponibilidade
+Virtualização e Pay-Per-Use
+
+## Modelos de nuvem
+AWS EC2 
+AWS Elastic Beanstalk
+Amazon Workdocs
+
+## Criação de uma VPC
+

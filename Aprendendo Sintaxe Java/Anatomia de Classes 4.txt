@@ -1,0 +1,11 @@
+Anatomia de classes 4 
+
+## Identação 
+Basicamente é utilizado para escrever o código de forma hierárquica facilitando a visualização e o entendimento do código
+Não interefere na compilação do código ou em sua estrutura, diferentemente do python que a identação faz parte da estrutura do código
+
+A identeção pode ter um nível de profundidade de entra 4 a 6 níveis, acima disso é bom rever a lógica (boas práticas)
+
+
+
+

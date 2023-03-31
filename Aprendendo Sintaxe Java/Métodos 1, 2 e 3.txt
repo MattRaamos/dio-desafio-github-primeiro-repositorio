@@ -1,0 +1,38 @@
+Métodos 1 e 2 
+
+Concepção de métodos no java base
+Apresentando critérios para criação de métodos, parâmetros e visibilidade.
+
+Métodos correspondem a funções, ações ou sub-rotinas disponíveis dentro das nossas classes
+Usando a análogia de um carro como exemplo:
+Acelerar, frear, buzinar - são métodos
+
+Convenções/padrões:
+Deve ser nomeado como verbo
+Seguir o padrão camelCase (todas as letras minúsculas com a exceção da primeira letra da segunda palavra)
+
+Exemplos sugeridos para nomenclatura de métodos:
+somar(int n1, int n2){}
+
+abrirConexao(){}
+
+concluirProcessamento(){}
+
+findById(int id){} 
+
+calcularImprimir(int id){} // há algo de errado com esse método, ele deveria calcular ou imprimir
+
+Em java não existe o conceito de métodos globais. Todos os métodos vem sempre ser definidos dentro de uma classe.
+
+# Critério de definição de métodos:
+## Convenção estrutural
+1. Qual a proposta principal do método?
+2. Qual o tipo de retorno esperado após executar o método?
+Caso o método não retorne nenhum valor, ele será representado pela palavra-chave void.
+
+3. Quais os parâmetros serão necessários para a execução do método?
+4. O método possui o risco de apresentar alguma exceção?
+5. Qual a visibilidade do método?
+
+
+

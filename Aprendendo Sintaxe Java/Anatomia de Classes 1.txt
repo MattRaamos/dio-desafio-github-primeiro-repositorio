@@ -1,0 +1,37 @@
+# Java Sintaxe
+
+Anatomia da Classe - Estrutura da linguagem
+
+Java básico: Iniciando um projeto .java
+
+*public class* _MinhaClass_ {
+	//CÓDIGO AQUI
+}
+
+Convenção de separa o nome das pastas com '-'
+ex: meu-primeiro-projeto
+
+Todo o código sera construído na pasta: *src*
+
+Por padrão (regra) em todas as classes todas as primeiras letras de cada palavra são maísculas
+ex: MinhaClasse, MeuProjeto, MinhaCalculadora
+
+padrão as classes começam com o prefixo:
+
+public class MinhaClasse {
+/*bloco de código principal*/
+}
+
+Se a classe for executável ela precisará de um método especial, o método main: psvm
+	public static void main (String [] args){
+/* dentro desse método também tem um bloco de comando e esse bloco esta dentro do bloco da classe*/
+	System.out.print("Esse comando para imprimir mensagens na tela");
+}
+
+tudo o que há dentro de () é método que vai ser executado e precisa de algum parâmetro/informação
+ex do print: System.out.print("Olá"); 
+
+Toda classe precisa existir dentro do diretório src e toda classe precisa respeitar o padrão com a primeira letra maiuscula e todas as outras palavras tbm sempre a primeira letra
+
+
+

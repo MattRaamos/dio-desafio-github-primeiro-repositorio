@@ -1,0 +1,17 @@
+Operadores 7
+
+Operadores lógicos
+Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões
+
+&& Operador lógico "E"
+|| Operador lógico "OU"
+
+boolean condicao1 = true;
+boolean condicao2 = false;
+
+if(condicao1 == condicao2){
+
+}
+if(condicao1 || condicao2){
+
+}

@@ -1,0 +1,84 @@
+# Boas práticas - Solid
+
+## Boas práticas de desenvolvimentos de aplicativos
+
+### Código limpo
+Código limpo é fácil de ler e manter
+O objetivo é facilitar a colaboração entra os desenvolvedores e garantir que o código possa ser modificado e atualizado com segurança
+
+Conceitos base:
+Legibilidade - fácil de ler e entender. Nomes descritivos e seguindo padrões definidos
+
+Padrões - definir e seguir padrões de desenvolvimento
+
+Separar configurações de código fonte - evita confusão e facilita no momento de alteração
+
+Evitar repetições - se algo já foi feito em algum momento deve ser reutilizado e não copiado
+
+Cuidado com o uso de comentários - com o passar do tempo o código irá ser modificado e o comentario pode estar desatualizado. Lembra de atualizar o comentário sempre 
+
+Tratamento de erros - erros inesperados impactam a usabilidade e funcionamento do sistema
+
+### Testes limpos
+Para um teste limpo é ideal que ele seja:
+Rápido: uma vez que o teste é executado repetidamente, ele precisa ter um processo ágil.
+Independente: a exceção do teste não pode impactar o sistema inteiro como efeito cascata
+Passível de validação: para um teste objetivo, ele deve retornar respostas verdadeiras ou falsas
+Pontual: um teste deve validar apenas um fluxo de código. Um teste com muitas responsabilidade também não é um bom teste.
+
+# SOLID
+É um acrônimo baseado nos 5 princípios da programação orientada a objetos.
+Ajudar a tornar o código mais fácil de entender, modificar e manter.
+Apresentado por Robert C. Martin no livro "Agile Software: Principies, Patterns, and Practices.
+
+S - Single resposability principle (Princípio da responsabilidade única) 
+Aqui diz que uma classe deve ter apenas um motivo para mudar ou seja, deve ter apenas uma única responsabilidade
+Ex: 
+public class GerarNotaFiscal{
+	public void ValidarDadosDoCliente() {...}
+	public void Gerar ImpostoFiscal(decimal ValorVenda) {...}
+	public void SalvarNotaFiscal(decimal ValorFinal) {...}
+	public void ImprimirCupomFiscal() {...}
+	public void EnviarCupomPorEmail() {...}	
+}
+
+Uma classe com bastantes responsabilidades dentro dela e se mexer nela pode comprometer todo o processo de geração e envio da nota fiscal
+Não segue muito os princípios de responsabilidade única. Muita dependencia numa classe só
+Sugestão de melhoria é separar as classes por responsabilidade:
+
+public class DadosDoCliente {
+	Validar();
+}
+
+public class ImpostosCupomFiscal {
+	GerarImpostos(decimal ValorVenda);
+}
+
+public class PersistenciaCupomFiscal {
+	Salvar(decimal ValorFinal);
+}
+
+public class EmissaoCupomFiscal {
+	Imprimir();
+}
+
+public class ComunicacaoCupomFiscal {
+	EnviarPorEmail();
+}
+
+Para mudar algo ou corrigir as classes separadas que também podem estar em arquivos diferentes facilitaria a manutenção no dia-a-dia
+
+O - Open closed principle (Princípio do aberto e fechado)
+Capaz de estender o comportamento de uma classe sem precisar modificá-la. 
+
+L - Liskov substitution principle (Princípio da substituição de Liskov)
+As classes derivadas devem poder ser substituídas por sua classe base
+
+I - Interface segregation principle (Princípio da segregação de interfaces)
+Crie interface granulares e específicas para os clientes. Clientes não devem ser forçados a depender de interfaces que eles não usam.
+
+D - Dependency inversion principle (Princípio da inversão de dependências)
+Dependa de abstrações e não de implementações. Depender de abstrações faz com que o código tenha menos dependências e diminuia o acoplamento.
+
+
+

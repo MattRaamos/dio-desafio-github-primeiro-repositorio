@@ -1,0 +1,54 @@
+Operadores 1 e 2
+
+Operadores - simbolos especiais que tem um significado próprio para a linguagem e estão associados a determinadas operações
+Operadores:
+== Igual
+!= diferente
+< menor
+> maior 
+<= menor igual
+>= maior igual
+
+# Classificação
+## Atribuição
+Representado pelo símbolo de igualdade = 
+Define, sobrescreve ou altera o valor de uma variável
+
+String nome = "MATHEUS";
+int idade = 26;
+double peso = 90.4;
+char sexo = 'M';
+boolean doadorOrgao = false;
+Date dataNascimento = new Date();
+
+Operadores aritméticos 
+O + adição
+O - subtração
+O * multiplicação
+O / divisão
+O % modulo (apresenta o resto da divisão)
+
+O operador de adição "+" quando utilizado em variáveis de texto será usado para concatenar.
+Exemplo:
+
+String nomeCompleto = "LINGUAGEM" + "JAVA";
+System.out.println(nomeCompleto);
+resultado: LINGUAGEMJAVA
+
+Quando usado com números, quando ele detecta a primeira string para concatenar ele não consegue mais realizar operações aritméticas
+Ex:
+
+String concatenacao = "?";
+concatenacao = 1+1+1+"1"
+resultado: 31
+
+concatenacao = 1+"1"+1+1
+resultado: 1111
+
+concatenacao = "1"+1+1+1
+resultado: 1111
+
+### neste caso ele vai somar primeiro a "evidência" entre os () e em seguida concatenar. 
+concatenacao = "1"+(1+1+1)
+resultado: 13
+
