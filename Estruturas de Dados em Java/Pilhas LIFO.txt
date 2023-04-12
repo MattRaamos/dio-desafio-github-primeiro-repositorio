@@ -1,0 +1,39 @@
+Filas 
+Pilhas [LIFO: Last In, First Out]
+
+Uma pilha: podemos pensar como uma pilha de livros por exemplo. O último livro a ser colocado é o primeiro a ser retirado
+
+Método Top
+Pega o primeiro dado, mas não tira da pilha.
+
+No meuNo = pilha.top();
+
+No meuNo = //recebe a referência do primeiro nó, mas não tira ele da pilha
+
+int numero = meuNo.getInt();
+int numero = int;
+
+Método Pop
+O método Pop diferente do método top, tira o primeiro dado da pilha, logo também retirando o primeiro nó da pilha.
+
+No meuNo = pilha.pop();
+No meuNo = // pega o primeiro dado da pilha e retira do nó e altera a referência para o nó debaixo.
+int numero = int;
+
+Método Push
+Ele é o contrário do Pop. Ele não retira da pilha, mas ele adiciona no top e/ou final da lista. 
+
+No meuNo = new No();
+meuNo.setInt(1);
+meuNo = 
+
+Método isEmpty
+Verifica se a referência pra entrada da pilha está nula ou não. Se estiver nula então não tem pilha
+No geral o isEmpty serva em termos básicos para dizer se a pilha está vazia
+
+public boolean isEmpty(){
+	if(refNo == null){
+		return true;
+	}
+	return false;
+}

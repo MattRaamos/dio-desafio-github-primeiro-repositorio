@@ -1,0 +1,7 @@
+Stack (Classe Stack)
+
+Principais métodos
+
+stackCarros.pop()
+stackCarros.peek()
+stackCarros.empty()

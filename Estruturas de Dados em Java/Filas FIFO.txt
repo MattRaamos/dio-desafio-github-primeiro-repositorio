@@ -1,0 +1,22 @@
+Filas - FIFO 
+First In, First Out
+
+Na fila basicamente o primeiro a entrar é sempre o primeiro a sair. 
+em minhaFila:
+Usamos a Ref. nó > Object()+Ref.Nó > Object()+Ref.Nó > Object()+Ref.Nó > null
+onde o primeiro da fila será o Null e a referência conectará a o outro nó
+
+# Métodos:
+.enqueue() - enfileirar
+.dequeue() - desenfileirar
+.isEmpty - vazio
+
+O método enqueue()
+Um novo dado na fila é colocado em último lugar e a referência de entrada passa a apontar para ele.
+
+O método dequeue()
+Desenfileirar, então ele pega o primeiro da fila e tira e o "segundo" no caso que agora se torna o primeiro passa a apontar para null
+
+Um novo enqueue()
+Ele entra sempre em último na fila e a referência de entrada passa a apontar para ele.
+

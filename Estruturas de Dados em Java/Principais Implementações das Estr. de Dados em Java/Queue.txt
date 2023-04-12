@@ -1,0 +1,14 @@
+Queue (Interface Queue)
+
+Principais métodos
+
+Queue<Carro> queueCarros = new LinkedList<Carro>();
+
+queueCarros.add(new Carro("Fiat"));
+queueCarros.element();
+queueCarros.offer(new Carro("Renault"));
+queueCarros.peek();
+queueCarros.remove();
+queueCarros.poll();
+queueCarros.isEmpty();
+

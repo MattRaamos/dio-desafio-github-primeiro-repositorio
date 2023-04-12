@@ -1,0 +1,26 @@
+Mentoria - Dicas para se Tornar um Desenvolvedor de Sucesso
+
+Dicas
+Não ter medo de:
+	Errar
+	Falar com seus superiores
+	Expor suas ideias
+Sede de conhecimento - Persistência e perseverança
+Transparência
+Protagonismo
+Propositivo
+Trabalho em Equipe
+Criar laços
+Capacidade de adaptação e articulação
+Entender do produto que você cuida
+
++ Dicas
+Explorar o PDI junto ao gestor
+Saber lidar sob pressão
+Participar e contribuir com os refinamentos - Upstream
+Abrir a câmera
+Observability
+Boas práticas de Logs
+Qualidade de código
+Sustentação do próprio código
+Gestão do débitos técnicos

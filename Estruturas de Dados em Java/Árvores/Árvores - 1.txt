@@ -1,0 +1,22 @@
+Árvores
+
+# Conceito:
+Estrutura de dados bidimensional
+Não Linear
+Constituída de nós que representam um modelo hierárquico
+* Armazenam os dados com base em relações de dependências.
+Listas, Filas e Pilhas são estruturas lineares
+
+Características de Uma Árvore Hierárquica
+
+Nó - Elemento da árvore que pode aramzenar dados e referências para outros nós
+Raiz - Nó principal da árvore
+Pai e Filho - Dois nós ligados em que o ancestral é o pai e descendente é o filho
+Irmão - Nós com o mesmo pai são ditos irmãos
+Nível de um nó - Posição hierárquica em relação a raiz
+Altura ou profundidade - grau máximo dos nós
+Folha ou nó terminal - Folha termo comum dos últimos nós. Nó que não tem filhos
+Nó interno - Não são nós folhas
+Grau de um nó - Indicado pelo número de filhos
+Subárvore - Formada a partir de um nó da árvore principal
+

@@ -1,0 +1,22 @@
+# Tipos de Árvores
+
+Árvore Binária // a mais estudada
+Árvore AVL
+Árvore Ordenada
+Árvore Rubro-Negra
+Árvore 2-3
+Árvore 2-4
+Árvore B
+Árvore B+
+Árvore Hiperbólica
+
+# Árvore Binária
+Posição dos nós
+Maiores à direita
+Menores à esquerda
+
+Nó da Árvore Binária
+Object()
+noEsq - noDir
+
+Se chegar em Null significa que chegou nas folhas da árvore

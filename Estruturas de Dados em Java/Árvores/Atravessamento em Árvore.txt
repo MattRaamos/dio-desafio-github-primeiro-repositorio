@@ -1,0 +1,21 @@
+Atravessamento em Árvore
+
+IN-ORDEM
+PRÉ-ORDEM
+PÓS-ORDEM
+
+Atravessamento IN-ORDEM
+ele primeiro visita o nó a esquerda
+exibe o nó
+e depois ele visita o nó a direita 
+a saída é em ordem crescente
+
+Atravessamento PRÉ-ORDEM
+ele primeiro mostrar e depois visita
+primeiro ele exibe o nó 
+e depois vai aos nós a esquerda
+e em seguida a direita
+
+Atravessamento PÓS-ORDEM
+ele primeiro visita e depois exibe
+

@@ -1,0 +1,25 @@
+Estruturas de Dados em Java
+
+# Conceitos básicos
+- O bit
+- Organizar dados em memória
+- Mecanismos de organização de dados que atendem diferentes requisitos de processamento
+
+# Arquitetura de um PC
+## Tipos de memória
+Memória Primária (RAM) - Não mantem os dados sem energia. Memória temporária
+Memória Secundária (HD/SSD) - Mantem os dados mesmo com ausência de energia 
+
+A RAM é composta de diversos chips que possuem endereços de memória que o SO gerencia. 
+Cada chip é capaz de manter armazenado por determinado tempo milhões de bits
+
+# Atribuição e Referência
+
+As atribuições em Java são por cópia de valor sempre;
+Com tipo primitivo, copiamos o valor em memória;
+Com objetos copiamos o valor da referência em memória, sem duplicar o objeto.
+-- os tipos primitivos copiam o valor da variável, já em objetos ele é apontado a referencia da memória. 
+
+# Conceito de nó e Encadeamento 
+Um nó é um espaço em memória que armazena o dado que queremos e a referência para um próximo nó
+

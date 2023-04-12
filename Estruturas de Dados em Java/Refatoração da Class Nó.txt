@@ -1,0 +1,16 @@
+Refatoração da Class Nó
+
+A class está assim:
+
+public class No { 
+	private String conteudo; //a class aceita conteudo como String apenas
+	private No proximoNo;
+}
+
+e ficará assim:
+
+public class No<T> { //criando o tipo genérico 'T' a class aceitara conteudo de qualquer tipo
+	private T conteudo;
+	private No proximoNo = null;
+}
+

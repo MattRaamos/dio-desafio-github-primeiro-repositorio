@@ -1,0 +1,10 @@
+# Principais Implementações das Estr. de Dados em Java
+# Equals() e hashCode()
+
+São usados para melhorar a busca de objetos
+No caso do hashCode utilizado para organizar os objetos nas estruturas de dados
+E o equals serve para comparar a igualdade
+
+
+
+

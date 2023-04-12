@@ -1,0 +1,58 @@
+Generics em Java 
+
+Lista <String> minhaLista = new Lista<>();
+
+public class Lista<T> {
+	private T t;
+	.
+	.
+	.
+}
+
+O T representa uma classe generica, podemos entrar com integer, string e etc.
+
+Contexto do uso de generics:
+para evitar casting excessivo
+para evitar códigos redundantes
+Encontrar erros em tempo de compilação
+
+Unknown Wildcards (Unbounded)
+Bounded Wildcard (Upper Bounded/Lower Bounded)
+São chamados de 'curingas'. Curingas ilimitados e Curingas limitados por cima ou por baixo
+
+Unknown Wildcard
+
+public void imprimeLista(List<?> lista){ //recebe lista de qualquer coisa, seja de String, integer ou de objeto
+	for(Object obj : lista){ //a lista é impressa aqui
+		System.out.println(obj);
+	}
+}
+List<Aluno> minhaLista = new List<Aluno>(); //declarando a lista do tipo aluno e passando ela para a função acima
+imprimeLista(minhaLista);
+
+UpperBounded WildCard
+
+public void imprimeLista(List<? extends Pessoa> listaPessoas){ //consigo ter nessa estrutura de generisc as lista de Pessoas os decententes de Pessoa 
+	for(Pessoa p : listaPessoas){ 
+		System.out.println(p);
+	}
+} 
+List<Aluno> minhaLista = new List<Aluno>();
+imprimeLista(minhaLista);
+
+LowerBounded WildCard
+
+public void imrpimeLista(List<? super Pessoa>listaPessoas){ //não consegue implementar qualquer herderio da classe Pessoa, apenas da classe pessoa pra cima, por exemplo a classe pai de pessoa. 
+	for(Pessoa p : listaPessoas){
+			System.out.println(p);
+	}
+}
+List<Aluno> minhaLista = new List<Aluno>();
+imprimeLista(minhaLista);
+
+Convenção
+K para "Key", ex: Map<K,V>
+V para "Value", ex: Map<K,V>
+E para "Element", ex: List<E>
+T para "Type", ex: Collections#addALL
+? quando genérico
