@@ -1,0 +1,18 @@
+# Sobrecargas
+
+Conceituação
+Sobrecarga é a capacidade de definir métodos para diferentes contextos, mas preservando seu nome.
+
+# O que é sobrecarregar um método
+Um mesmo método pode ter o mesmo nome e com parãmetros diferentes.
+Por exemplo:
+converterParaInteiro(float f);
+converterParaInteiro(double d);
+converterParaInteiro(float f, RoundType rd);
+
+Outro exemplo é o tão usado System.out.println();
+Que pode ser: System.out.println(boolean x);
+System.out.println(char x);
+System.out.println(char [] x);
+System.out.println(float x);
+System.out.println(int x);

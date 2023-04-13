@@ -1,0 +1,28 @@
+Retornos
+
+Return é uma instrução de interrupção
+Parecida com break e continue, mas esses dois são atrelados a estruturas de laços de repetição
+Já o return é atrelado a métodos
+
+O método executa seu retorno quando:
+completa todas as instruções internas
+chega a uma declaração explicita de retorno
+lança uma exceção
+
+O tipo de retorno do método é definido na sua criação e pode ser um tipo primitivo ou objeto;
+O tipo de dado do return deve ser compatível com o do método;
+Se o método for sem retorno(void), pode ou não ter um "return" para encerrar sua execução.
+
+Exemplos:
+public String getMensagem(){
+	return "Ola!";
+}
+public double getJuros(){
+	return 2.36;
+}
+public void executar(){
+...
+return
+...
+}
+

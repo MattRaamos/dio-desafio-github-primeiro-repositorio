@@ -1,0 +1,29 @@
+Conceitos e boas práticas da criação de métodos
+# Particularidades
+
+Assinatura: é a forma de identificar unicamente o método
+Ass = nome + parâmetros
+
+Método:
+public double clacularTotalVenda(double precoItem1, double precoItem2, double precoItem3){...}
+
+Assinatura:
+calcularTotalVenda(double precoItem1, double precoItem2, double precoItem3)
+
+Construtor e Destrutor: são métodos especiais usados na OO
+
+Mensagem: é o ato de solicitar ao método que o mesmo execute. Esta pode ser direcionada a um objeto ou a uma classe.
+
+Passagem de parâmetros:
+Por valor (cópia)
+Por referência (endereço)
+
+Boas práticas
+Nomes descritivos, mas curtos
+Notalção camelo: verificarSaldo(); executarTransferencia(...); existeDebito();
+Deve possuir entre 80 e 120 linhas
+Evite lista de parâmetros longas
+Visibilidades adequadas
+
+
+

@@ -1,0 +1,32 @@
+# Entendendo Métodos Java
+
+## Criação de métodos
+
+Conceituação: é uma porção de código (sub-rotina) que é disponibilizada por uma classe. Este é executado quando é feita
+uma requisição a ele. São responsáveis por definir e realizar um determinado comportamento.
+
+# Criação
+Padrão de definição:
+>?visibilidade?><?tipo?><?modificador?>retorno nome (<?parâmetros?>) <?exceções?> corpo
+exceções: são erros que o método pode disparar se algo inesperado acontecer dentro do método
+
+o que está entre as ?-? é opcional
+retorno, nome, () e corpo são obrigatórios 
+
+Onde:
+V: "public", "protected" ou "private"
+T: concreto ou abstrato
+M: "static" ou "final"
+R: tipo de dado ou "void"
+N: nome que é fornecido ao método
+P: parâmetros que pode receber
+E: exceções que pode lançar
+C: código que possui ou vazio
+
+# Utilização
+Passa-se uma mensagem através de uma classe ou objeto.
+
+nome_da_classe.nome_do_metodo(); ou nome_do_objeto.nome_do_metodo(...);
+Math.random(); ou Math.sqrt(4);
+usuario.getEmail(); ou usuario.alterarEndereco(endereco);
+
